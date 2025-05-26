@@ -1,0 +1,16 @@
+services:
+  # Backend Flask
+  - type: web
+    name: weka-backend
+    env: python
+    plan: free
+    rootDir: backend            # carpeta donde está app.py
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+
+  # Frontend React (sitio estático)
+  - type: static
+    name: weka-frontend
+    rootDir: frontend
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "frontend/build"

@@ -4,7 +4,7 @@ services:
     name: weka-backend
     env: python
     plan: free
-    rootDir: backend            # carpeta donde está app.py
+    rootDir: backend
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
 

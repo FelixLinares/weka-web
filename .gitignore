@@ -1,7 +1,12 @@
-frontend/node_modules/  
-frontend/build/        
-backend/venv/          
-backend/__pycache__/   
-*.pyc                  
-.DS_Store              
-Thumbs.db              
+# ÄÄÄ React ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+frontend/node_modules/
+frontend/build/
+ECHO est  activado.
+# ÄÄÄ Python ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+backend/venv/
+backend/__pycache__/
+*.pyc
+ECHO est  activado.
+# ÄÄÄ Misc ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+.DS_Store
+Thumbs.db

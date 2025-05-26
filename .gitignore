@@ -1,0 +1,10 @@
+# --- React ---                      
+frontend/node_modules/             
+frontend/build/                    
+# --- Python ---                   
+backend/venv/                      
+backend/__pycache__/               
+*.pyc                              
+# --- Miscel nea ---               
+.DS_Store                          
+Thumbs.db                          
